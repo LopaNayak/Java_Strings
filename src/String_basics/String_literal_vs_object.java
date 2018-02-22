@@ -19,8 +19,6 @@ public class String_literal_vs_object {
 	    System.out.println("Is st1== st_Obj1 ?:  "+(st1==st_obj1));
 	    System.out.println("Is st1.equals( st_Obj1 ) ?:  "+(st1.equals(st_obj1)));
 	    System.out.println("\n verdict: \n since the two string references point to the same string \n in the pool, their equals check return true. \n However, the object references are different, since one is a \n object and other a literal. So, == check returns false.\n On similar lines, the string literals st1 and st2 return true \n to == check because they refer to the same \n literal in the pool and hold the same reference. \n Objects st5 and st4 are not equal as per the == check since they \n have different references(in heap) referring to the same shared location.");
-	   
-	    
 	  }
 	  
 	  public static void main(String args[])
